@@ -9,3 +9,14 @@ color:  #fff;
     width: 8rem;
     border-radius: 5px;
 }
+.smartes-conteiner{
+    display: flex;
+justify-content: center;
+
+}
+.smart-protect{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+padding: 2rem;
+}
