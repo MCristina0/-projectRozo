@@ -31,41 +31,78 @@ justify-content: center;
 }
 
 .take-soon{
+ position: relative;
 align-items: right;
-text-align: right;
-width: 50%;
+text-align: left;
+
 }
 .safe-soon{
-
-    align-items: center;
+    position: relative;
+    align-items: right;
     text-align: left;
     padding: 2rem;
     width: 50%;
    
 }
+.safe-soon > button{
+    width: 10rem;
+    height: 2rem;
+    color:antiquewhite;
+   border-radius: 15px;
+   background-color: rgb(22, 22, 22);
+
+}
+.take-soon > button{
+    width: 10rem;
+    height: 2rem;
+    color:rgb(255, 255, 255);
+   border-radius: 15px;
+   background-color: rgb(22, 22, 22);
+}
+
+   
 
 .safe-soon-img{
 
-    align-items: left;
-    text-align: left;
+
     width: 50%;
+    height:50%;
+    padding: 0rem;
 }
 .take-soon-img{
 
-    align-items: right;
-    text-align: right;
-    width: 50%;
- 
+position: relative;
+    width: auto;
+    height: auto;
 
 }
+
 
 .take-container{
-    display: flex;
-  padding: 2rem;
+   width: auto;
+   display: flex;
   justify-content: space-around;
+margin: 0rem 12rem -10rem 12rem;
 }
 .safe-container{
+width: 100%;
     display: flex;
-    padding: 2rem;
     justify-content: space-around;
+   margin: 10rem 5rem 0rem 10rem;
+   padding: 0rem 0rem 0rem 0rem;;
+   
+
+}
+
+.trapecio {
+width: 100%;
+height: auto;
+display: flex;
+background-color: rgb(0, 255, 179);
+clip-path: polygon(0 51%, 100% 0%, 100% 100%, 0% 100%);
+flex-direction: column-reverse;
+justify-content: space-around;
+padding: 2rem;
+margin:  4rem 0rem 4rem 0rem;
+
 }
