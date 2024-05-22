@@ -109,3 +109,92 @@ margin:  4rem 0rem 4rem 0rem;
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
+.check-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;}
+.check-startup{
+    height:27rem ;
+    width:25rem ;
+    border:solid;
+    margin: 2rem;
+
+}
+
+.check-profecional{
+    height:27rem ;
+    width:25rem ;
+    border:solid;
+    margin: 2rem;
+ 
+}
+.check-premiun{
+    height:27rem ;
+    width:25rem ;
+    border:solid;
+    margin: 2rem;
+    background: rgb(0, 15, 43);
+}
+.brands-container{
+    display: flex;
+    justify-content:  center;
+    height: 100%;
+    height: auto;
+background-color: rgb(216, 219, 255);
+padding: 2rem;
+margin:0 ;}
+
+.brands-img{
+    margin: 1rem;
+    height: auto;
+    width: auto;
+}
+.contact-container{
+    display: flex;
+background-image: url(images/contact-bk.jpg);
+height:40rem ;
+width: 100%;
+padding: 10rem 0rem 0rem 0rem;
+justify-items: center;
+
+}
+.contact-text{
+    color: #fff;
+width: 50%;
+text-align: center;
+}
+.contact-from{
+    width: 50%;
+    height: auto;
+}
+label{
+    color:rgb(0, 255, 179);
+    margin: 1rem ;
+    padding:1rem;
+}
+.input-name{ 
+
+width: 40%;
+height: 2rem;
+border:solid;
+border-radius: 15px;
+border-color:rgb(0, 255, 179);
+background: none;
+
+}
+.input-email{
+     width: 40%;
+height: 2rem;
+border:solid;
+border-radius: 15px;
+border-color:rgb(0, 255, 179);
+background: none;
+}
+.input-mesage{ 
+    width:90%;
+height: 4rem ;
+border:solid;
+border-radius: 15px;
+border-color:rgb(0, 255, 179);
+background: none;
+}
