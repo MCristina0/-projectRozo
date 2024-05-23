@@ -120,28 +120,49 @@ padding: 2rem;
     display: flex;
     text-align: center;
     justify-content: center;}
+    
+    .check-premiun > button{
+        border-radius: 14px;
+        background-color: rgb(0, 255, 179);
+        height: 3rem;
+        width: 8rem;
+    }
+    .check-profecional > button{
+        border-radius: 14px;
+        background-color: whitesmoke;
+        height: 3rem;
+        width: 8rem;
+    }
+    .check-startup > button{
+        border-radius: 14px;
+        background-color: whitesmoke;
+        height: 3rem;
+        width: 8rem;
+    }
 .check-startup{
+    padding: 2rem;
     height:27rem ;
-    width:15rem ;
- 
+    width:20rem ;
     margin: 2rem;
-
+ 
 }
 
 .check-profecional{
     height:27rem ;
-    width:15rem ;
-  
+    width:20rem ;
+    padding: 2rem;
     margin: 2rem;
  
 }
 .check-premiun{
+    padding: 2rem;
     height:27rem ;
-    width:15rem ;
-  
+    width:20rem ;
     margin: 2rem;
     background: rgb(0, 15, 43);
+    color:#fff;
 }
+
 .brands-container{
     display: flex;
     justify-content:  center;
@@ -152,7 +173,7 @@ padding: 2rem;
     margin:0 ;}
 
 .brands-img{
-    margin: 1rem;
+
     height: auto;   
     width: auto;
 }
@@ -163,13 +184,14 @@ height:40rem ;
 width: 100%;
 padding: 10rem 0rem 0rem 0rem;
 justify-items: center;
+margin: rem;
 
 
 }
 .contact-text{
 color: #fff;
 width: 50%;
-text-align: center;
+padding: 4rem;
 }
 
 .contact-from{
@@ -177,6 +199,7 @@ text-align: center;
     width: 50%;
     height: 100%;
     text-align: left;
+    padding: 4rem;
 
 
 }
@@ -184,15 +207,15 @@ text-align: center;
     
     display: flex;
     width: 100%;
-    height: 50%;
-    text-align: left;
+    height: auto;
+   
 
 
 }
 .contact-from2{
  
     width: 100%;
-    height: 50%;
+    height: auto;
 }
 
 label{
@@ -203,11 +226,12 @@ label{
 }
 .input-name{
     width: 50%;
-    margin: 2rem;
+    margin: 0rem 2rem 0rem 0rem;
 }
 .input-email{
     width: 50%;
     margin: 2rem;
+    margin: 0rem 0rem 0rem 0rem;
 }
 .input-name > input{ 
 
@@ -230,26 +254,48 @@ label{
 
 }
 .input-mesage{ 
- height: 4rem ;
- margin: 2rem;
+
+
 }
-.input-mesage > input {
+.contact-from2 > input{
     width:100%;
     border:solid;
     border-radius: 15px;
     border-color:rgb(0, 255, 179);
     background: none;
+    height: 4rem ;
+    margin: 0rem 0rem 2rem 0rem;
 }
+
 .contact-button{
    
     width: 100%;
     height: 2rem;
     border-radius: 15px;
     background:rgb(0, 255, 179);
+  
 
     }
 
 body
 {
-width: 100vw;
+width: 100%;
+height:90%;
+margin: 0rem;
+}
+span{
+    font-size: 5rem;
+
+}
+h2{
+    font-size: 2rem;
+}
+
+spam{
+    font-size: 2rem;   
+}
+.footer {
+    background-color:rgb(0, 15, 43);
+    width: 100%;
+    margin: 0rem;
 }
