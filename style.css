@@ -22,18 +22,23 @@ header > h6{
     background-color:rgb(0, 255, 179);
 }
 .smartes-conteiner{
-    width:100% ;
-    display: flex;
+width:100% ;
+display: flex;
 justify-content: center;
 margin: 0;
+height: auto;
 
 }
 .smart-protect{
-    width:100% ;
+    width:33% ;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding: 2rem;
+}
+.smart-protect > img{
+    width: 6rem;
+    
 }
 
 .take-soon{
