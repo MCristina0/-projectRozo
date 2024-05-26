@@ -25,7 +25,7 @@ header > h6{
 width:100% ;
 display: flex;
 justify-content: center;
-margin: 0;
+margin: 0rem;
 height: auto;
 
 }
@@ -42,17 +42,17 @@ height: auto;
 }
 
 .take-soon{
- position: relative;
-align-items: right;
-text-align: left;
+    position: relative;
+    align-items: left;
+    text-align: right;
+    width: 20%;
 
 }
 .safe-soon{
     position: relative;
     align-items: right;
     text-align: left;
-    padding: 2rem;
-    width: 50%;
+    width: 20%;
    
 }
 .safe-soon > button{
@@ -66,7 +66,7 @@ text-align: left;
 .take-soon > button{
     width: 10rem;
     height: 2rem;
-    color:rgb(255, 255, 255);
+    color:antiquewhite;
    border-radius: 15px;
    background-color: rgb(22, 22, 22);
 }
@@ -74,8 +74,6 @@ text-align: left;
    
 
 .safe-soon-img{
-
-
     width: 50%;
     height:50%;
     padding: 0rem;
@@ -83,25 +81,27 @@ text-align: left;
 }
 .take-soon-img{
 
-position: relative;
-    width: auto;
-    height: auto;
+    width: 50%;
+    height:50%;
+    padding: 0rem;
+    margin: 1rem;
 
 }
 
 
 .take-container{
-   width: auto;
-   display: flex;
-  justify-content: space-around;
-margin: 0rem 12rem -10rem 0rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0rem;
+   
 }
 .safe-container{
-width: 100%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
    margin: 10rem 5rem 0rem 0rem;
-   padding: 0rem 0rem 0rem 0rem;;
+   padding: 10rem 0rem 0rem 0rem;
    
 
 }
@@ -130,19 +130,19 @@ padding: 2rem;
         border-radius: 14px;
         background-color: rgb(0, 255, 179);
         height: 3rem;
-        width: 50%;
+        width: 30%;
     }
     .check-profecional > button{
         border-radius: 14px;
         background-color: whitesmoke;
         height: 3rem;
-        width: 50%;
+        width: 30%;
     }
     .check-startup > button{
         border-radius: 14px;
         background-color: whitesmoke;
         height: 3rem;
-        width: 50%;
+        width: 30%;
     }
 .check-startup{
     padding: 1rem;
@@ -162,9 +162,10 @@ padding: 2rem;
 .check-premiun{
     padding: 1rem;
     height:auto ;
-    width: 33%;
-    margin: 1rem;
+    width: 25%;
+    margin: 1% 0rem 8rem 0rem;
     background: rgb(0, 15, 43);
+    border-radius: 5px;
     color:#fff;
 }
 
