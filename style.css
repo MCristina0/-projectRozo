@@ -114,10 +114,8 @@ height: auto;
     display: flex;
     position: relative;
     justify-content: space-around;
-    margin: 2rem 0rem 20rem 0rem;
+    margin: 2rem 0rem 10rem 0rem;
 
-   
-   
 
 }
 
@@ -158,13 +156,13 @@ margin: 2rem 0rem -60rem 0rem;
         width: 30%;
     }
 .check-startup{
-    height:35rem;
+    height:25rem;
     width: 33%;
     margin: 2rem;
     padding:4rem 0rem 0rem 0rem;
 }
 .check-profecional{
-    height:35rem;
+    height:25rem;
     width: 33%;
     margin: 2rem;
     padding:4rem 0rem 0rem 0rem;
@@ -172,7 +170,7 @@ margin: 2rem 0rem -60rem 0rem;
 }
 .check-premiun{
  
-    height:35rem;
+    height:25rem;
     width: 25%;
     margin: 2rem;
     padding:4rem 0rem 0rem 0rem;
@@ -302,6 +300,14 @@ h2{
     font-size: 2rem;
 }
 
+spam{
+
+        font-size: 2rem;
+    
+}
+span{
+    font-size: 2rem;
+}
 
 .footer {
     background-color:rgb(0, 15, 43);
