@@ -106,7 +106,7 @@ height: auto;
     display: flex;
     position: relative;
     justify-content: space-around;
-    margin: 5rem 0rem 0rem 0rem;
+    margin: 2rem 0rem 0rem 0rem;
    
 }
 .safe-container{
@@ -126,7 +126,7 @@ width: auto;
 height: 55vw;
 background-color: rgb(0, 255, 179);
 clip-path: polygon(0 51%, 100% 0%, 100% 100%, 0% 100%);
-margin: 2rem 0rem -65rem 0rem;
+margin: 2rem 0rem -60rem 0rem;
   
 
 
