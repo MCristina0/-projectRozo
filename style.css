@@ -184,7 +184,7 @@ height:40rem ;
 width: 100%;
 padding: 10rem 0rem 0rem 0rem;
 justify-items: center;
-margin: rem;
+margin: 0rem;
 
 
 }
@@ -298,4 +298,9 @@ spam{
     background-color:rgb(0, 15, 43);
     width: 100%;
     margin: 0rem;
+}
+
+body{
+width: auto;
+height: auto;
 }
